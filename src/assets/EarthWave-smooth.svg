@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7f4ee"/>
+      <stop offset="1" stop-color="#ece6da"/>
+    </linearGradient>
+    <linearGradient id="blueWave" x1="110" y1="210" x2="1090" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#325cad"/>
+      <stop offset="1" stop-color="#24488d"/>
+    </linearGradient>
+    <linearGradient id="sandWave" x1="120" y1="300" x2="1080" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e6cf93"/>
+      <stop offset="1" stop-color="#d3b16d"/>
+    </linearGradient>
+    <filter id="shadow" x="76" y="90" width="1048" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#24324e" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="700" rx="44" fill="url(#bg)"/>
+  <circle cx="1010" cy="112" r="92" fill="#ffffff" fill-opacity="0.42"/>
+  <circle cx="196" cy="542" r="132" fill="#ffffff" fill-opacity="0.32"/>
+
+  <g filter="url(#shadow)">
+    <path d="M112 235C217 131 327 104 447 163C535 207 617 234 701 234C817 234 943 183 1088 101" stroke="url(#blueWave)" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M126 326C237 261 347 246 458 279C552 307 634 363 729 363C839 363 954 316 1074 242" stroke="url(#sandWave)" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <text x="140" y="518" fill="#24488d" font-size="122" font-weight="700" font-family="Avenir Next, Trebuchet MS, Segoe UI, sans-serif" letter-spacing="2">EARTHWAVE</text>
+    <text x="145" y="574" fill="#6e7a90" font-size="31" font-weight="500" font-family="Avenir Next, Trebuchet MS, Segoe UI, sans-serif" letter-spacing="11">COMMUNITY WELLBEING</text>
+  </g>
+</svg>
