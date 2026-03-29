@@ -11,19 +11,19 @@ const pillars = [
   {
     icon: Package,
     title: 'Member-led marketplace',
-    body: 'Wellbeing products, practical tools, and trusted recommendations gathered into one place as the Earthwave ecosystem grows.'
+    body: 'Wellbeing products, practical tools, and trusted recommendations gathered into one place as the EarthWave ecosystem grows.'
   },
   {
     icon: Compass,
     title: 'A bigger movement',
-    body: 'What begins in one local community is intended to become a repeatable Earth Wave model that can grow into new locations over time.'
+    body: 'What begins in one local community is intended to become a repeatable EarthWave model that can grow into new locations over time.'
   }
 ];
 
 const steps = [
   'Start local with meetups, shared activities, and a healthier rhythm of life.',
   'Build a member space with resources, support, and premium community benefits.',
-  'Grow into ecommerce, distribution, and the wider Earth Wave system.'
+  'Grow into ecommerce, distribution, and the wider EarthWave system.'
 ];
 
 export default function App() {
@@ -36,7 +36,7 @@ export default function App() {
       <header className="site-header">
         <div className="brand-chip">
           <Waves size={16} />
-          <span>Earthwave</span>
+          <span>EarthWave</span>
         </div>
         <div className="coming-soon-pill">Coming soon</div>
       </header>
@@ -47,7 +47,7 @@ export default function App() {
             <p className="eyebrow">A new wave of community wellbeing</p>
             <h1>Built from one real health journey into a shared movement for better living.</h1>
             <p className="lead">
-              Earthwave is an emerging community-led wellbeing brand inspired by Brian’s transformation — a new space for healthier choices, inclusion, activity, connection, and long-term momentum.
+              EarthWave is an emerging community-led wellbeing brand inspired by a personal transformation that can become your own — a new space for healthier choices, inclusion, activity, connection, and long-term momentum.
             </p>
             <div className="hero-actions">
               <a className="primary-cta" href="#vision">
@@ -62,7 +62,7 @@ export default function App() {
 
           <div className="hero-card">
             <div className="hero-card-glow" />
-            <img src={earthWaveLogo} alt="Earthwave logo" className="hero-logo" />
+            <img src={earthWaveLogo} alt="EarthWave logo" className="hero-logo" />
             <div className="hero-card-copy">
               <span>Guiding idea</span>
               <strong>Health, wellbeing, and belonging should feel human, local, and possible.</strong>
@@ -73,9 +73,9 @@ export default function App() {
         <section className="story-grid">
           <article className="story-panel section-frame">
             <p className="eyebrow">The back story</p>
-            <h2>Brian’s personal change is the root of the brand.</h2>
+            <h2>Your transformation can be the start of something bigger.</h2>
             <p>
-              Earthwave begins with lived experience. After a major health and wellbeing transformation, Brian found himself drawn toward a simpler truth: meaningful change sticks better when it is shared, grounded, and part of everyday life.
+              EarthWave begins with lived experience. After a major health and wellbeing transformation, a simpler truth comes into focus: meaningful change sticks better when it is shared, grounded, and part of everyday life.
             </p>
             <p>
               Not extreme fitness. Not clinical support. Not another loud “wellness” promise. Just a better environment for healthier decisions, stronger habits, and more connected lives.
@@ -85,14 +85,14 @@ export default function App() {
           <article className="quote-panel section-frame">
             <div className="quote-mark">~</div>
             <p>
-              Earthwave is being shaped as a calm but ambitious brand — one that starts with local community and grows into a broader platform for products, knowledge, and shared momentum.
+              EarthWave is being shaped as a calm but ambitious brand — one that starts with local community and grows into a broader platform for products, knowledge, and shared momentum.
             </p>
           </article>
         </section>
 
         <section id="vision" className="vision section-frame">
           <div className="section-heading">
-            <p className="eyebrow">What Earthwave is becoming</p>
+            <p className="eyebrow">What EarthWave is becoming</p>
             <h2>A wellbeing community first. Then a wider platform.</h2>
           </div>
 
@@ -128,7 +128,7 @@ export default function App() {
             <Users size={22} />
             <h3>Membership with meaning</h3>
             <p>
-              The long-term plan includes a subscription-based member experience with access to knowledge, premium benefits, and a stronger sense of belonging to the Earthwave community.
+              The long-term plan includes a subscription-based member experience with access to knowledge, premium benefits, and a stronger sense of belonging to the EarthWave community.
             </p>
           </article>
 
@@ -136,14 +136,14 @@ export default function App() {
             <Compass size={22} />
             <h3>Designed to travel</h3>
             <p>
-              The future vision reaches beyond one neighbourhood: an Earth Wave model that can be adapted into new communities, partnerships, and franchise opportunities.
+              The future vision reaches beyond one neighbourhood: an EarthWave model that can be adapted into new communities, partnerships, and franchise opportunities.
             </p>
           </article>
         </section>
 
         <section className="closing section-frame">
           <p className="eyebrow">Coming soon</p>
-          <h2>Earthwave is in its first chapter — calm, deliberate, and building with purpose.</h2>
+          <h2>EarthWave is in its first chapter — calm, deliberate, and building with purpose.</h2>
           <p>
             This site is an early marker for what’s ahead: a healthier, more inclusive community model that begins with people, local momentum, and real life change.
           </p>
